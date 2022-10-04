@@ -1,0 +1,31 @@
+/* Universal Selector */
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    background-color: white;
+}
+
+header {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styles the body section which includes the button and rules. */
+body {
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* Styles the start quiz button. */
+button { 
+    background-color: teal;
+    color: white;
+    width: auto;
+    border-radius: 15px;
+    height: 55px;
+    font-size: larger;
+    border: 3px black solid;
+    }
+
