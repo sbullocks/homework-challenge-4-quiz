@@ -11,8 +11,8 @@
 <body>
     <!-- This area will be used to display the high score link and timer in the header. -->
     <header> 
-    <section id = "score-card" style="display: none">
-        <input type="button" value="View High Scores" onclick="view-high-scores()"></br>
+    <section id = "score_card" style="display: none">
+        <input type="button" value="View High Scores" onclick="view_high_scores()"></br>
         Score: <var id="score"></var>
     </section>
 
@@ -53,19 +53,19 @@
 <!-- This area is for the results and high score container. -->
 <section id="AnswerResponse"></section>
 
-<div id="game-over" style="display: none">
+<div id="game_over" style="display: none">
     <h2>Game Over</h2>
-    Your Score was: <var id="end-score"></var>
+    Your Score was: <var id="end_score"></var>
     </br>
     Initials: <input type="text" value="initials" id="initials">
     </br>
-    <input type="button" value="submit" id="submit-initials" onclick="submit-score()">
+    <input type="button" value="submit" id="submit_initials" onclick="submit_score()">
 </div>
     
-<div id="high-score-page" style="display: none">
+<div id="high_score_page" style="display: none">
     <h2>High Scores</h2>
-    <div id="high-scores"></div>
-        <input type="button" value="Go Back" id="go-back" onclick="clear-hs()">
+    <div id="high_scores"></div>
+        <input type="button" value="Go Back" id="go_back" onclick="clear_hs()">
 </div>
 
     <script scr="script.js"></script>

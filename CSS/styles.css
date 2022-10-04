@@ -18,6 +18,26 @@ body {
     text-align: center;
 }
 
+#scoreDisplay {
+    float: left;
+    color: darkcyan;
+}
+
+#scoreDisplay:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#timerDisplay {
+    float: right;
+    color: darkcyan;
+}
+
+#timerDisplay:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 /* Styles the start quiz button. */
 button { 
     background-color: teal;
@@ -29,3 +49,8 @@ button {
     border: 3px black solid;
     }
 
+.container {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+}
